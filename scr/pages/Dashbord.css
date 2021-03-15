@@ -1,0 +1,172 @@
+.Dashbord{
+    /* position: relative; */
+    
+    margin-left: 400px;
+    
+    margin-top: 20px;
+    
+    
+    
+    
+}
+
+
+.chartbar{
+    /* position: absolute; */
+    left: 400px;
+    width: 600px;
+    max-width: 600px;
+}
+.Dashbord > p{
+    transform: rotate(-90deg);
+    position: absolute;
+    left: 310px;
+    top:230px;
+    font-size: 13px;
+    font-family: monospace;
+    color: black;
+    
+
+
+}
+.top{
+    background-color: blue;
+}
+.box1{
+    /* position: absolute; */
+    max-width: 237px;
+    height: 120px;
+    background-color: rgb(223, 223, 223);
+    padding: 5px;
+    margin-top: 10px;
+    margin-right: 0px;
+    
+}
+.top-bar1{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 16px;
+    /* border: black; */
+    font-family: monospace;
+    margin-bottom: 5px;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    
+}
+.boxbody1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    
+}
+
+.lastupdate{
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+    margin-left: 5px;
+    margin-top: 5px;
+    color: rgb(28, 162, 240);
+}
+.lastupdate>p{
+    margin-right: 10px;
+}
+.left-side1 > p{
+    
+    color: rgb(28, 162, 240);
+}
+.p1{
+    font-size: 10px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.p2{
+    font-size: 16px;
+    margin-left: 5px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding: 5px 10px;
+    background-color: rgb(181, 208, 243);
+    border: none ;
+    border-radius: 5px;
+}
+.rightside1{
+    font-size: 50px;
+    margin-right: 8px;
+}
+.right-corner{
+    width: 300px;
+    height: 100vh;
+    /* right: 0; */
+    background-color: rgb(223, 223, 223);
+    margin-top: 60px;
+    margin-left: 100px;
+    padding-top: 80px;
+    padding-right:40px;
+    padding-left: 40px;
+
+}
+.home{
+    display: flex;
+    /* margin-right: 100px; */
+}
+.img{
+    font-size: 40px;
+    
+}
+.right-corner>div>p {
+    font-size: 12px;
+    /* margin-top:10px; */
+    margin: 10px 20px 0px 20px;
+}
+.right-corner-box1{
+    height: 187px;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+.right-corner-box2{
+    height: 187px;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    padding-top: 10px;
+}
+.Learn-Now,.Track-Now{
+    color: white;
+    background-color: #0704a8;
+    padding: 6px 35px;
+    border:none;
+    border-radius: 6px;
+    
+}
+.b1,.b2,.b3{
+    border: none;
+    padding:10px;
+}
+.b1,.b3{
+    background-color: #0704a8;
+    color: white;
+}
+.b1{
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+.b3{
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+.chart-buttons{
+    position: relative;
+    padding-right: 100px;
+    max-width: 200px;
+    right: 100px;
+}
+.compound{
+    /* position: relative; */
+}
